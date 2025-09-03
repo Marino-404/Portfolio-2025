@@ -1,0 +1,35 @@
+.container {
+  height: 40vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  .body {
+    width: 100%;
+    color: #afa18f;
+
+    cursor: default;
+    span {
+      color: #ec4e39;
+    }
+  }
+
+  h1 {
+    padding-left: 10%;
+    width: auto;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(183, 171, 152, 0.25);
+  }
+
+  p {
+    padding-left: 10%;
+    margin: 0;
+    width: 70%;
+    cursor: default;
+    font-size: 48px;
+  }
+}
